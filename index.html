@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- from the boxicons.com website , the link will take the appropriate icons for my portfolio -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Form validation using : html | css | js</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form>
+                <h2>Form validation</h2>
+                <div class="form-control">
+                    <label for="username">Name</label>
+                    <input type="text" placeholder="Name surname" id="name" onkeyup="validateName()">
+                    <span id="name-error"></span>
+                </div>
+                <div class="form-control">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" placeholder="X XX XX XX XX" id="phone" onkeyup="validatePhone()">
+                    <span id="phone-error"></span>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="example@gmail.com" id="email" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="password">
+                </div>
+                <div class="form-control">
+                    <label for="message">message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="&#9997;..." id="message"
+                        onkeyup="validateMessage()"></textarea>
+                    <span id="message-error"></span>
+                </div>
+                <button onclick="validateForm()">Submit &#128640;</button>
+                <span id="submit-error"></span>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
