@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #fff 50%, #bd002f 50%);
+    background: linear-gradient(to bottom, #fffff0 50%, #171717 50%);
 }
 
 .form {
@@ -30,7 +30,7 @@
 .form h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #bd002f;
+    color: #171717;
 }
 .form-control {
     margin-bottom: 20px;

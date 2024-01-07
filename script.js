@@ -75,7 +75,7 @@ function validateForm() {
     if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage()) {
         // submitError.style.display = 'block';
         submitError.innerHTML = 'Please enter the required fields before submitting the form';
-        setTimeout(function () { submitError.style.display = 'none'; }, 3000);
+        setTimeout(function () { submitError.style.display = 'none'; }, 5000);
         return false;
     }
 }
