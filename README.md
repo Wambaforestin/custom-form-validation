@@ -1,6 +1,6 @@
 # Custom Form Validation
 
-This project is part of my `60-days learning journey` for beginners.
+This project is part of my `60-days JavaScript learning journey` for beginners.
 
 # Live Demo
 [Live Demo Link](https://wambaforestin.github.io/custom-form-validation/)
